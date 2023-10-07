@@ -1,64 +1,73 @@
-*{
-    margin:0px;
-}
 
-h1{
-    text-align: center;
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0px;
 }
 .main-container{
-    margin: auto;
-    padding-top: 20px;
+padding: 20px;
+margin: auto;
+
+    
 }
 .container{
-    width: 30.38%;
-    background-color: grey;
+    width: 29.8%;
     float: left;
-    margin: 20px;
+    margin: 1%;
+    padding-left: .5473%;
+    background-color: grey;
     border-style: solid;
-    border-width: 1px;
-    height: auto;
+
 }
-.sub1{
+.sub-container{
     text-align: center;
     background-color: rgba(239, 176, 187, 0.837);
     border-style: solid;
     border-width: 1px;
     float:right;
     width: 40%;
-    clear: right;
     border-top: 0px; border-right:0px;
+    clear: right;
 
 }
-.sub2{
+h1{
     text-align: center;
-    color: white;
-    border-color: black;
-    background-color: rgba(219, 6, 6, 0.91);
-    border-style: solid;
-    border-top: 0px; border-right:0px;
-    border-width: 1px;
-    float:right;
-    width: 40%;
-    height: auto;
-    clear: right;
+    padding-top: 10px;
+    padding-bottom: 19px;
 }
-
- .sub3{
-    text-align: center;
-    background-color: rgb(197, 197, 34);
-    border-style: solid;
-    border-width: 1px;
-    float:right;
-    border-top: 0px; border-right:0px;
-    width: 40%;
-    height: auto;
-    clear: right;
+h2{
+    margin: 0%;
 }
 .sub{
-    float: left;
-    padding: 10px;
+    float:left;
 }
-h2 {
-    margin: 0px;
+@media(min-width:768px)and (max-width:991px){
+    .container{
+        width: 46.69%;
+    }
+    .cont{
+        width: 97%;
+    }
 }
 
+@media(max-width:767px){
+    .container{
+        width: 97%;
+    }
+}
+
+.r{
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+.y{
+    background-color: yellow;
+}
